@@ -1,0 +1,12 @@
+import tkinter as tk
+import math
+import matplotlib
+w.tk.Tk()
+w.title("Math Vizualizator")
+w.geometry("600x400")
+c=tk.Canvas(w,height=600,width=400)
+c.pack()
+def draw_function(c,func,x_min,x_max,scale_x=20,scale_y=20):
+    points=[]
+    step=0.1
+    
